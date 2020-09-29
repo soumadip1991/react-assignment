@@ -1,0 +1,47 @@
+.App {
+    text-align: center;
+}
+
+.App-header {
+    background-color: #282c34;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: white;
+}
+
+.side-by-side {
+    display: inline-block;
+    padding: 1rem;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+.table-heading {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.table-center {
+    display: flex;
+    justify-content: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+}
+
+.input-container>div {
+    width: 12%;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: right;
+}
